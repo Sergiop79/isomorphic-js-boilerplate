@@ -1,0 +1,25 @@
+$bg-color: rgb(166, 186, 202);
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: $bg-color;
+}
+
+.box {
+  display: flex;
+  color: red;
+  transform: scale(2.5);
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
